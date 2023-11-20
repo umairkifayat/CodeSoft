@@ -1,0 +1,45 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    background-color: rgba(255, 213, 0, 0.866);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 80px;
+}
+
+.flag img {
+    width: 30px;
+}
+
+.search {
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 600px;
+    border-radius: 5px 5px 5px 5px;
+}

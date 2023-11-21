@@ -16,7 +16,7 @@ li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: rgba(255, 255, 255, 0.703)
 }
 
 .container {
@@ -42,4 +42,26 @@ body {
     border: 1px solid #ddd;
     width: 600px;
     border-radius: 5px 5px 5px 5px;
+}
+
+.header{
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+margin-top: 10px;
+}
+.all{
+    color: blue;
+}
+.recomanded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.electronics{
+    display: flex;
+    justify-content: space-evenly;
+}
+.grocery{
+    display: flex;
+    justify-content: space-evenly;
 }
